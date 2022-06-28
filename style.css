@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Bai;
+    src: url(fonts/BaiJamjuree-Regular.ttf);
+}
+
+* {
+    font-family: Bai;
+}
+
+.navigation h3 {
+    font-family: Bai;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+/* #introduction h1 {
+    font-size: 56px;
+} */
+
+#introduction h1 {
+    font-family: Bai;
+}
+
+#introduction h3 {
+    font-size: 23px;
+}
+
+.connect a {
+    font-family: Bai;
+}
+
+.experience div * {
+    font-family: Bai;
+}
+
+.footer {
+    background-color: #E6E3DE;
+}
